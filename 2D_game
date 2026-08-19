@@ -23,8 +23,8 @@ clock_t lastMouseClickTime;
 
 bool firstMouseClick = true;
 
-const double GAME_TIME = 30.0;
-const double MOUSE_INTERVAL = 0.5;
+const double GAME_TIME = 20.0;
+const double MOUSE_INTERVAL = 1.0;
 
 void drawText(float x, float y, const char* text)
 {
